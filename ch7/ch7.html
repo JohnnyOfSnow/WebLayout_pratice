@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,500&display=swap");
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+		body{
+			background-color: #000;
+		}
+		.main-footer{
+			padding: 150px 0 0;
+			background: linear-gradient(-20deg, #3f5494,#08c7a5);
+		}
+		.main-footer .container{
+			display: flex;
+			width: 1200px;
+			margin: auto;
+		}
+		.footer-item{
+			width: 0;
+			flex-grow: 1;
+			margin: 0 20px;
+		}
+
+		.footer-item nav{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.footer-item nav a{
+			color: #fff;
+			line-height: 1.4;
+			text-decoration: none;
+			padding: 5px 0px;
+
+		}
+
+		.footer-item nav a:hover{
+			color: #fa0;	
+		}
+
+		.footer-item h4{
+			font-size: 24px;
+			color: #fff;
+			border-bottom: 1px dotted #fff;
+			margin-bottom: 0.5em;
+			padding-bottom: 0.5em;
+
+		}
+
+		.footer-subs{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.footer-subs form{
+			display: flex;
+			width: 100%;
+			margin: auto 0px;	
+		} 
+
+		.footer-subs input[type="text"],
+		.footer-subs input[type="submit"]{
+			border: none;
+			padding: 5px 10px;
+		}
+
+		.footer-subs input[type="text"]{
+			width: 0;
+			flex-grow: 1;
+		}
+		.footer-subs input[type="submit"]{
+			color: #70f6df;
+			background-color: #3e5293;
+		}
+
+		.copyright{
+			text-align: center;
+			margin: 150px 0 0;
+			padding: 10px 0px;
+			background-color: #3e5293;
+			color: #70f6df;
+			width: 100%;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="main-footer">
+		<div class="container">
+			<div class="footer-item">
+				<h4>關於暴力課程</h4>
+				<nav>
+					<a href="#">>課程目標</a>
+					<a href="#">>辦學理念</a>
+					<a href="#">>課程宗旨</a>
+				</nav>
+			</div>
+			<div class="footer-item">
+				<h4>課程列表</h4>
+				<nav>
+					<a href="#">>暴力網頁入門班</a>
+					<a href="#">>RWD網頁深入理解</a>
+					<a href="#">>CSS3互動動畫設計</a>
+					<a href="#">>Bootstrap框架實務</a>
+				</nav>
+			</div>
+			<div class="footer-item">
+				<h4>服務項目</h4>
+				<nav>
+					<a href="#">>網站建置顧問</a>
+					<a href="#">>網站設計建置</a>
+					<a href="#">>網站規劃</a>
+					<a href="#">>企業教育訓練</a>
+				</nav>
+			</div>
+			<div class="footer-item footer-subs">
+				<h4>訂閱電子報</h4>
+				<form>
+					<input type="text" name="">
+					<input type="submit" name="" value="訂閱">
+				</form>
+			</div>
+		</div>
+		<div class="copyright">
+			Copyright &copy; 2019 金魚都能懂得這個網頁畫面怎麼切
+		</div>
+	</div>
+</body>
+</html>

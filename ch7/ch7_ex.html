@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,500&display=swap");
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+		body{
+			background-color: #000;
+		}
+		.main-footer{
+			padding: 150px 0 0;
+			background: linear-gradient(-20deg,#fe8556,#e7597f,#fdaecb);
+		}
+		.main-footer .container{
+			width: 1200px;
+			margin: auto;
+			display: flex;
+		}
+		.footer-item{
+			width: 0;
+			flex-grow: 1;
+			margin: 0 20px;
+		}
+		.footer-item nav{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.footer-item nav a{
+			color: #fff;
+			line-height: 1.4;
+			text-decoration: none;
+			padding: 5px 0;
+		}
+
+		.footer-item nav a:hover{
+			color: #000;
+		}
+
+		.footer-item h4{
+			font-size: 24px;
+			color: #fff;
+			border-bottom: 1px dotted #fff;
+			margin-bottom: 0.5em;
+			padding-bottom: 0.5em;
+		}
+
+		.fotter-subs{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.fotter-subs form{
+			display: flex;
+			width: 100%;
+			margin: auto 0px;
+		}
+
+		.fotter-subs input[type="text"],
+		.fotter-subs input[type="submit"]{
+			border: none;
+			padding: 5px 10px;
+		}
+
+		.fotter-subs input[type="text"]{
+			width: 0;
+			flex-grow: 1;
+		}
+
+		.fotter-subs input[type="submit"]{
+			color: #000;
+			background-color: #fdaecb;
+		}
+
+		.copyright{
+			text-align: center;
+			margin: 150px 0;
+			padding: 10px 0;
+			width: 100%;
+			color: #753700;
+			background-color: #fe8556;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main-footer">
+		<div class="container">
+			<div class="footer-item">
+				<h4>關於水果課程</h4>
+				<nav>
+					<a href="#">>課程目標</a>
+					<a href="#">>辦學理念</a>
+					<a href="#">>課程宗旨</a>
+				</nav>
+			</div>
+			<div class="footer-item">
+				<h4>課程列表</h4>
+				<nav>
+					<a href="#">>水果栽種入門班</a>
+					<a href="#">>水果養育基礎班</a>
+					<a href="#">>水果採收體驗班</a>
+					<a href="#">>水果銷售計劃班</a>
+				</nav>
+			</div>
+			<div class="footer-item">
+				<h4>服務項目</h4>
+				<nav>
+					<a href="#">>水果品種顧問</a>
+					<a href="#">>銷售網站建置</a>
+					<a href="#">>種植規劃</a>
+					<a href="#">>人員教育訓練</a>
+				</nav>
+			</div>
+			<div class="footer-item fotter-subs">
+				<h4>訂閱電子報</h4>
+				<form>
+					<input type="text" class="">
+					<input type="submit" name="" value="訂閱">
+				</form>
+			</div>
+			
+		</div>
+		<div class="copyright">
+				Copyright &copy; 2020 香菇都能懂得這個網頁畫面怎麼切
+		</div>
+	</div>
+</body>
+</html>
