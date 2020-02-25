@@ -7,6 +7,8 @@
 * **[ch3: 人員介紹卡片](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch3)**
 * **[ch4: 交錯漂浮版](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch4)**
 * **[ch5: 超通用橫式版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch5)**
+* **[ch6: 複習ch1-ch5](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch6)**
+* **[ch7: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch7)**
 
 ***
 ## 學習環境與工具

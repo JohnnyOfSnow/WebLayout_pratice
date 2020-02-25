@@ -4,7 +4,7 @@
 ## ch7: 網頁頁尾版塊
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch5/image/ch7hw.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch7/image/ch7hw.jpg)
 
 * **練習內容**
   * 做出具有網頁頁尾版塊的網頁頁面

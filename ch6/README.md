@@ -1,7 +1,7 @@
 # WebLayout_pratice
 
 ***
-## ch6: 超通用橫式版面
+## ch6: 複習ch1-ch5
 ***
 
 * **練習內容**
@@ -21,6 +21,7 @@ flex-wrap: wrap;
 
 它能強迫flex的子物件換行，否則flex預設不換行
 
+***
 
 **ch6_ex3.html**
 
@@ -35,5 +36,7 @@ flex-wrap: wrap;
 1.一定搭配content使用，因為沒有content就沒有after
 
 2.before的content會在區塊內容的**後方**
+
+***
 
 **ch6_ex4.html**
