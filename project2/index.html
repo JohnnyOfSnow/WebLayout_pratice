@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,500&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+		}
+		.wrapper{
+			display: flex;
+			flex-direction: row;
+			width: 1300px;
+			height: 600px;
+			border: 2px solid #f00;
+		}
+		.wrapper .display{
+			margin-top: 0;
+			border: 2px solid #00f;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		video{
+			width: 800px;
+			height: 500px;
+		}
+
+		.slider{
+			width: 50%;
+			height: 25px;
+			align-self: flex-end;
+			margin: 20px 30px;
+			background: #d3d3d3;
+			outline: none;
+			opacity: 0.7;
+  			transition: opacity .2s;
+		}
+
+		.slider:hover {
+  			opacity: 1;
+		}
+		
+		.wrapper .display p{
+			align-self: flex-end;
+			margin-right: 20px;
+		}
+
+		.content{
+			width: 60%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: 2px solid #0ff;
+			padding: 0px 10px;
+
+		}
+		.content .item{
+			margin: 10px 0px;
+			
+		}
+
+		.instruction{
+			border: 1px solid #aaa;
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+		.instruction .time{
+
+		}
+		.content .item h2{
+			font-size: 15px;
+			margin-top: 20px;
+			content: '';
+			display: block;
+			width: 200px;
+			height: 10px;
+			background-color: #0f0;
+		}
+
+		.user-button{
+			display: flex;
+			justify-content: flex-end;
+			margin-bottom: 20px;
+		}
+
+		.user-button button{
+			width: 100px;
+			height: 50px;
+			margin: 0px 10px;
+			font-size: 20px;
+			font-family: 'Noto Sans TC', sans-serif;
+			border: 1px solid #aaa;
+			border-radius: 4px;
+		}
+
+		.user-button button:nth-child(1){
+			background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 80%);;
+
+		}
+
+		.user-choice img{
+			width: 100px;
+			height: 100px;
+		}
+
+		.user-choice button{
+			margin: 0px 5px;
+		}
+		.user-choice button:hover{
+			border: 3px solid #0a0;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="display">
+			<video id="tsuno-video" >
+				<source src="./movie/20.mp4" type="video/mp4">
+			</video>
+			<input type="range" min="1" max="100" value="20" class="slider" id="volumeSlider">
+			<p>
+				音量大小: 
+				<span id="volumeOutput"></span>
+			</p>
+		</div>
+		<div class="content">
+			<div class="item">
+				<div class="instruction">
+					<p>つのまき猜拳<br>
+					按下開始按鈕後，在時間結束之前，按下要出的拳。</p>
+				</div>
+				剩餘時間：
+				<h2 id="timebar"></h2>
+			</div>
+			<div class="item">
+				<form class="user-form">
+					<div class="user-button">
+						<button id="startBtn" onclick="playVid()" type="button">開始</button>
+						<button id="stopBtn" onclick="stopVid()" type="button">停止</button>
+					</div>
+					<div class="user-choice">
+						<button id="user-scissors" type="button"><img src="./scissors.jpg"></button>
+						<button id="user-rock" type="button"><img src="./rock.jpg"></button>
+						<button id="user-paper" type="button"><img src="./paper.jpg"></button>
+					</div>
+				</form>
+			</div>
+			<div class="item">
+				<div class="user-log">
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script>
+	const TIMEWIDTH = "200px";
+    const TIMEWIDTH_INT = 200;
+    const TIMEMAX = 12.5;
+    var vid = document.getElementById("tsuno-video");
+    var volumeSlider = document.getElementById("volumeSlider");
+    var volumeOutput = document.getElementById("volumeOutput");
+    var timeBar = document.getElementById("timebar");
+    var myTimer;
+    var userTime = TIMEMAX;
+    var currentWidth = 0;
+    
+
+    // The function will be invoke, when you open the HTML file
+	window.onload = function (){
+		volumeOutput.innerHTML = 20;
+		vid.volume = parseInt(volumeSlider.value) / 100;
+	}
+
+	function playVid() {
+		timerReset();
+		tsunoChoice()
+		startButtonEnabled();
+    	vid.play();
+    	myTimer = setInterval("timeLess()",100);
+	}
+
+	function stopVid() {
+		 vid.pause();
+		 vid.currentTime = 0; // equal to stop video playing
+		 timerReset();
+		 startButtonAble();
+		 userOpen();
+	}
+
+	// Adjust video's volume
+	volumeSlider.oninput = function() {
+  		volumeOutput.innerHTML = volumeSlider.value;
+  		vid.volume = parseInt(volumeSlider.value) / 100;
+	}
+
+	
+	function timeLess(){
+		if(userTime < 0){
+			clearInterval(myTimer);
+			userLock();
+		}else{
+			timeColor(userTime);
+			userTime = userTime - 0.1;
+			currentWidth = (userTime / TIMEMAX) * TIMEWIDTH_INT;
+			timeBar.style.width = currentWidth.toString() + "px";
+		}
+	}
+
+	function timeColor(){
+		timeBar.style.backgroundColor = "#f00";
+	}
+
+	function timerReset(){
+		userTime = 13.5;
+	    timeBar.style.width = TIMEWIDTH;
+	    timeBar.style.backgroundColor = "#0f0";
+	    clearInterval(myTimer);
+	}
+
+	function tsunoChoice(){
+		var choice = Math.floor(Math.random() * 3); 
+		switch(choice){
+			case 0:
+				vid.setAttribute("src", "./movie/20.mp4");
+			break;
+			case 1:
+				vid.setAttribute("src", "./movie/19.mp4");
+			break;
+			case 2:
+				vid.setAttribute("src", "./movie/21.mp4");
+			break;
+			default:
+		}
+	}
+
+	function startButtonEnabled(){
+		document.getElementById("startBtn").disabled = true;
+	}
+
+	function startButtonAble(){
+		document.getElementById("startBtn").disabled = false;
+	}
+
+	function userLock(){
+		document.getElementById("user-scissors").disabled = true;
+		document.getElementById("user-rock").disabled = true;
+		document.getElementById("user-paper").disabled = true;
+	}
+
+	function userOpen(){
+		document.getElementById("user-scissors").disabled = false;
+		document.getElementById("user-rock").disabled = false;
+		document.getElementById("user-paper").disabled = false;
+	}
+
+</script>
