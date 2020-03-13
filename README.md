@@ -10,6 +10,14 @@
 * **[ch6: 複習ch1-ch5](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch6)**
 * **[ch7: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch7)**
 * **[ch8: 導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch8)**
+* **[ch9: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch9)**
+
+***
+## 個人專案
+
+* **[圖文滿版區塊 + 背景變換](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_ex)**
+
+* **[つのまき猜拳](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project2)**
 
 ***
 ## 學習環境與工具
