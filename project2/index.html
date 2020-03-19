@@ -351,14 +351,14 @@
 	}
 
 	function record(){
-		userRecord = userRecord +  WINLOSE[player*3 + tsuno] + ": 你出的拳是:" + SRP[player] + "    つのまき出的拳是: " + SRP[tsuno];
-
+		userRecord = userRecord +  WINLOSE[player*3 + tsuno] + ": 你出的拳是:" + SRP[player] + " つのまき出的拳是: " + SRP[tsuno];
 		document.getElementById("user-record").innerHTML = userRecord;  
 	}
 
 	function clearRecord(){
-		userRecord = "";
-		document.getElementById("user-record").innerHTML = "";  
+		userRecord = userRecord + "\n";
+		document.getElementById("user-record").innerHTML = userRecord;  
 	}
+	
 
 </script>

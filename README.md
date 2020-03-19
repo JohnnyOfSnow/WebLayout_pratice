@@ -11,6 +11,8 @@
 * **[ch7: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch7)**
 * **[ch8: 導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch8)**
 * **[ch9: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch9)**
+* **[ch10: 麵包屑](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch10)**
+* **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)**
 
 ***
 ## 個人專案
