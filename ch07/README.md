@@ -1,10 +1,10 @@
 # WebLayout_pratice
 
 ***
-## ch7: 網頁頁尾版塊
+## ch07: 網頁頁尾版塊
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch7/image/ch7hw.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch07/image/ch7hw.jpg)
 
 * **練習內容**
   * 做出具有網頁頁尾版塊的網頁頁面
@@ -58,7 +58,7 @@
 ### 3. 表單文字方塊、按鈕
 ***
 
-**請參考 [ch5: 超通用橫式版面 裡面的用遊戲學 Flex](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch5)**
+**請參考 [ch05: 超通用橫式版面 裡面的用遊戲學 Flex](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch05)**
 
 ***
 ### 4. flex-direction 的原理

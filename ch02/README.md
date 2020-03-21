@@ -1,10 +1,10 @@
 # WebLayout_pratice
 
 ***
-## ch2: 製作一個互動圖文卡片
+## ch02: 製作一個互動圖文卡片
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch2/image/ch2hw.gif)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch02/image/ch2hw.gif)
 
 * **練習內容**
   * 做出具有互動圖文卡片的網頁頁面
@@ -25,7 +25,7 @@
 
 **c.可以阻止block佔一整行。**
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch2/image/absolute_ex2.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch02/image/absolute_ex2.jpg)
 
 
 ***
@@ -38,7 +38,7 @@
 
 **c.可以阻止block佔一整行**
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch2/image/relative_ex.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch02/image/relative_ex.jpg)
 
 
 ***

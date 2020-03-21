@@ -1,10 +1,10 @@
 # WebLayout_pratice
 
 ***
-## ch8: 導覽列
+## ch08: 導覽列
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch8/image/ch8hw.gif)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch08/image/ch8hw.gif)
 
 * **練習內容**
   * 做出具有導覽列的網頁頁面

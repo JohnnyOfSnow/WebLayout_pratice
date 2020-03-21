@@ -65,6 +65,10 @@ float只有靠左和靠右
 ### 4. relative 定位教學
 ***
 
+**請參考 [ch02: 製作一個互動圖文卡片 裡面的CSS relative 相對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
+
 ***
 ### 5. absolute 定位教學
 ***
+
+**請參考 [ch2: 製作一個互動圖文卡片 裡面的CSS absolute 絕對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**

@@ -1,10 +1,10 @@
 # WebLayout_pratice
 
 ***
-## ch1: 圖文滿版區塊
+## ch01: 圖文滿版區塊
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch1/image/ch1hw.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch01/image/ch1hw.jpg)
 
 * **練習內容**
   * 做出具有圖文滿版區塊的網頁頁面
@@ -36,7 +36,7 @@ inline-block:取inline和其他人排在一起，與block設定寬高的特性�
 
 應用練習
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch1/image/inline_block2.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch01/image/inline_block2.jpg)
 
 ***
 ### 3. flex-direction 的原理

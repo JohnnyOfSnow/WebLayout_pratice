@@ -1,10 +1,10 @@
 # WebLayout_pratice
 
 ***
-## ch3: 人員介紹卡片
+## ch03: 人員介紹卡片
 ***
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch3/image/ch3hw.gif)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch03/image/ch3hw.gif)
 
 * **練習內容**
   * 做出具有人員介紹卡片的網頁頁面
@@ -23,7 +23,7 @@
 
 **利用四角形消邊框，以及部分邊框透明的方式，達到三角形的效果**
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch3/image/triangle.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch03/image/triangle.jpg)
 
 ***
 ### 2. 區塊尺寸怎麼算
@@ -40,25 +40,25 @@
 
 ``width + border(邊框) + padding(內距) + margin(外距)``
 
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch3/image/item_size.jpg)
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch03/image/item_size.jpg)
 
 ***
 ### 3. CSS absolute 絕對定位
 ***
 
-**請參考 [ch2: 製作一個互動圖文卡片 裡面的CSS absolute 絕對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch2)**
+**請參考 [ch02: 製作一個互動圖文卡片 裡面的CSS absolute 絕對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
 
 ***
 ### 4. CSS relative 相對定位
 ***
 
-**請參考 [ch2: 製作一個互動圖文卡片 裡面的CSS relative 相對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch2)**
+**請參考 [ch02: 製作一個互動圖文卡片 裡面的CSS relative 相對定位與範例](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
 
 ***
 ### 5. transition 動畫的做法
 ***
 
-**請參考 [ch2: 製作一個互動圖文卡片 裡面的transition 動畫的做法](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch2)**
+**請參考 [ch02: 製作一個互動圖文卡片 裡面的transition 動畫的做法](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
 
 ***
 ### 6. flex-direction 的原理
