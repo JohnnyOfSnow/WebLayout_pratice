@@ -19,7 +19,7 @@
 
 * **[圖文滿版區塊 + 背景變換](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_ex)**
 
-* **[つのまき猜拳](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project2)**
+* **[つのまき猜拳](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_tsunoSRP)**
 
 ***
 ## 學習環境與工具

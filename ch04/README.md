@@ -32,7 +32,7 @@
 
 ``width + border(邊框) + padding(內距) + margin(外距)``
 
-**範例請參考 [ch03: 人員介紹卡片 裡面的區塊尺寸怎麼算](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
+**範例請參考 [ch03: 人員介紹卡片 裡面的區塊尺寸怎麼算](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch03)**
 
 ***
 ### 2. Box-sizing 是甚麼

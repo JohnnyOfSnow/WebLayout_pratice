@@ -55,7 +55,7 @@
 ``這樣子就不用定義該文字方塊的class``
 
 ***
-### 3. 表單文字方塊、按鈕
+### 3. 用遊戲學 Flex
 ***
 
 **請參考 [ch05: 超通用橫式版面 裡面的用遊戲學 Flex](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch05)**
