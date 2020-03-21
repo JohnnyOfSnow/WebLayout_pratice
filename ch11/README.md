@@ -45,13 +45,13 @@ float只有靠左和靠右
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch11/image/float-2.jpg)
 
-**解決上面的問題**
-
-![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch11/image/float-3.jpg)
+> **解決上面的問題**
 
 可以在原本最後的一個子物件後面，增加一個子物件
 
 父層是被clear-block拉開的，而不是被內容物件的flaot撐開，clear-block閃開浮動物件，跑到所有浮動物件後方
+
+![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch11/image/float-3.jpg)
 
 ***
 ### 2. 波浪符選取器教學
