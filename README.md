@@ -2,15 +2,15 @@
 
 ***
 ## 學習目錄
-* **[ch1: 圖文滿版區塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch1)**
-* **[ch2: 製作一個互動圖文卡片](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch2)**
-* **[ch3: 人員介紹卡片](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch3)**
-* **[ch4: 交錯漂浮版](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch4)**
-* **[ch5: 超通用橫式版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch5)**
-* **[ch6: 複習ch1-ch5](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch6)**
-* **[ch7: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch7)**
-* **[ch8: 導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch8)**
-* **[ch9: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch9)**
+* **[ch01: 圖文滿版區塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch01)**
+* **[ch02: 製作一個互動圖文卡片](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch02)**
+* **[ch03: 人員介紹卡片](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch03)**
+* **[ch04: 交錯漂浮版](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch04)**
+* **[ch05: 超通用橫式版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch05)**
+* **[ch06: 複習ch1-ch5](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch06)**
+* **[ch07: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch07)**
+* **[ch08: 導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch08)**
+* **[ch09: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch09)**
 * **[ch10: 麵包屑](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch10)**
 * **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)**
 
