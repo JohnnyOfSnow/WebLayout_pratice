@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>x-button</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="public/javascripts/script.js"></script>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		a{
+			color: #0066ff;
+			text-decoration: none;
+		}
+
+		a:hover, .active{
+			text-decoration: underline;
+		}
+
+		
+
+		a#menu{
+	  		display: inline-block;
+	  		position: relative;
+	  		width: 40px;
+	  		height: 40px;
+	  		margin: 10px;
+		}
+
+		#menuBtn{
+		  	display: block;
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 50%;
+		  	width: 18px;
+		  	height: 2px;
+		  	margin: -1px 0 0 -7px;
+		  	background: #000;
+		  	transition: .2s;
+
+		}
+		
+		#menuBtn:before, #menuBtn:after{
+		  	display: block;
+		  	content: "";
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 0;
+		  	width: 18px;
+		  	height: 2px;
+		  	background: #000;
+		  	transition: .3s;	
+		}
+
+	
+
+		/* 位移 */
+		#menuBtn:before{
+				margin-top: -7px;
+		}
+
+		/* 位移 */
+		#menuBtn:after{
+				margin-top: 5px;
+		}
+		
+		/* 讓sapn 的顏色變白色 */
+		a#menu .close{
+				background: transparent;
+		}
+
+		a#menu .close:before, a#menu .close:after{
+				margin-top: 0;
+		}
+
+		/* 旋轉before直線 */
+		a#menu .close:before{
+		  	transform: rotate(-45deg);
+		  	-webkit-transform: rotate(-45deg);
+		}
+
+		/* 旋轉after直線 */
+		a#menu .close:after{
+		  	transform: rotate(-135deg);
+		  	-webkit-transform: rotate(-135deg);
+		}
+	</style>
+</head>
+<body>
+	<nav id="mainNav">
+		<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+		<div class="panel">
+			<ul>
+				<li><a href="#top">TOP</a></li>
+				<li><a href="#intro">INTRODUCTION</a></li>
+				<li><a href="#news">NEWS</a></li>
+				<li><a href="#creation">CREATION</a></li>
+				<li><a href="#note">NOTE</a></li>
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>
+
+
+

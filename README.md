@@ -15,11 +15,13 @@
 * **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)**
 
 ***
-## 個人專案
+## 個人專案、應用
 
 * **[圖文滿版區塊 + 背景變換](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_ex)**
 
 * **[つのまき猜拳](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_tsunoSRP)**
+
+* **[self01: 導航欄按鈕](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/self01)**
 
 ***
 ## 學習環境與工具
