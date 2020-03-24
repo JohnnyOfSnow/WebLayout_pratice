@@ -29,5 +29,7 @@
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/self01/image/x-button2.jpg)
 
 透過menuWrap的toggle
+
 > function 1: 當menuWrap要做slideToggle()，menuBtn加入.close (變成X)
+
 > function 2: 當menuWrap要做slideToggle()，menuBtn去除.close (變成三條橫槓)
