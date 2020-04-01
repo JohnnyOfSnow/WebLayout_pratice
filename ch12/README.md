@@ -1,7 +1,7 @@
 # WebLayout_pratice
 
 ***
-## ch11: 破格式設計
+## ch12: 破格式設計
 ***
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch12/image/ch12demo.jpg)
@@ -18,7 +18,7 @@
   * bootstrap的按鈕
 
 ***
-### 1. relative 定位教學
+### 1. 破格式設計過程
 ***
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch12/image/progress.jpg)

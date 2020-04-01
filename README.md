@@ -13,6 +13,7 @@
 * **[ch09: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch09)**
 * **[ch10: 麵包屑](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch10)**
 * **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)**
+* **[ch12: 破格式設計](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch12)**	
 
 ***
 ## 個人專案、應用
@@ -22,6 +23,10 @@
 * **[つのまき猜拳](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/project_tsunoSRP)**
 
 * **[self01: 導航欄按鈕](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/self01)**
+
+* **[版面練習1](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/layout_pratice/ex01_karenai)**
+
+* **[版面練習2](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/layout_pratice/ex02_tryment)**
 
 ***
 ## 學習環境與工具

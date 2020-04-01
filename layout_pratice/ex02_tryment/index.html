@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tryment 練習刻板</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" media="all" href="public/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="public/js/script.js"></script>
+
+	<!-- Swiper v4.1.0 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.esm.bundle.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<div id="title">
+				<h2>TrymenT</h2>
+				<h4>今を変えたいと願うあなたへ</h4>
+				<h5>YoU KnowS ThE DeaR KnowS</h5>
+			</div>
+			<div id="menu-icon" style="display: none;"></div>
+			<div id="main-header">
+				<nav>
+					<div class="nav-wrap">
+						<ul>
+							<li>ToP</li>
+							<li>IntroductioN</li>
+							<li>CharacteR</li>
+							<li>GallerY</li>
+							<li>MoviE</li>
+							<li>SpeciaL</li>
+							<li>ProducT</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			
+		</div>
+		<div class="container">
+			<div class="main-img">
+				<img src="./public/image/iroduku.jpg" alt="">
+			</div>
+			<div class="swiper-part">
+				<!-- Swiper -->
+			  <div class="swiper-container">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide"><img src="https://picsum.photos/320/200?random=10" alt=""></div>
+			      <div class="swiper-slide"><img src="https://picsum.photos/320/200?random=11" alt=""></div>
+			      <div class="swiper-slide"><img src="https://picsum.photos/320/200?random=12" alt=""></div>
+			      <div class="swiper-slide"><img src="https://picsum.photos/320/200?random=13" alt=""></div>
+			      <div class="swiper-slide"><img src="https://picsum.photos/320/200?random=14" alt=""></div>
+			    </div>
+			    <!-- Add Pagination -->
+			    <div class="swiper-pagination"></div>
+			    <!-- Add Arrows -->
+			    <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
+			  </div>
+			</div>
+			<div class="news">
+				<h2>NewS</h2>
+				<div class="txt">
+					<div class="news-item">
+						<p></p>
+						<p></p>
+					</div>
+					<div class="news-item">
+						<p></p>
+						<p></p>
+					</div>
+					<div class="news-item">
+						<p></p>
+						<p></p>
+					</div>
+				</div>
+				<div class="more-news">
+					<button></button>
+				</div>
+			</div>
+			<div class="twiiter-part">
+				<div class="twiiter-item">
+					<div class="twitter-txt">
+						<p></p>
+					</div>
+					<div class="twitter-img">
+						<img src="" alt="">
+					</div>
+				</div>
+				<div class="twiiter-item">
+					<div class="twitter-txt">
+						<p></p>
+					</div>
+					<div class="twitter-img">
+						<img src="" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer-txt">
+					<p></p>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+var swiper = new Swiper('.swiper-container', {
+ 	  slidesPerView: 3,
+      loop: true,
+      spaceBetween: 10,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</script>
+</html>

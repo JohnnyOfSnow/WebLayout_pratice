@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#wrap{
+	width: 100%;
+}
+
+#top{
+	width: 100%;
+	padding: 80px 0 30px;
+}
+
+#top #title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#top #title h2{
+	letter-spacing: 15px;
+	font-size: 50px;
+}
+
+#top #title h4{
+	letter-spacing: 4px;
+}
+
+#main-header{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#main-header nav{
+	margin-top: 45px;
+}
+
+.nav-wrap ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-wrap ul li{
+	margin-right: 70px;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container .main-img{
+	width: 100%;
+}
+
+.container .main-img img{
+	width: 100%;
+}
+
+.container .swiper-part{
+	width: 90%;
+	margin: 120px auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination{
+	margin-top: 40px;
+}
+
+
