@@ -179,15 +179,32 @@
 	letter-spacing: 2px;
 	text-decoration: none;
 	color: #000;
-	transition: background-color 0.5s ease;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	overflow: hidden;
+	z-index: -1;
 }
 
-#more-news-button a:hover{
+#more-news-button a:before{
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
 	background-color: #a0ee0a;
+	left: 50%;
+	top: 50%;
+	transition: transform .4s;
+	transform: scale(0);
+	z-index: -5;
+}
+
+
+#more-news-button:hover a:before{
+	transform: scale(46);
 }
 
 .container .twiiter-part{
@@ -253,6 +270,12 @@
 
 }
 
+#official-twitter-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #official-twitter-button a{
 	width: 255px;
 	height: 50px;
@@ -263,26 +286,38 @@
 	letter-spacing: 2px;
 	text-decoration: none;
 	color: #000;
-	transition: background-color 0.5s ease;
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-}
-
-#official-twitter-button a:hover{
-	background-color: #a0ee0a;
+	position: relative;
+	overflow: hidden;
+	z-index: -1;
 }
 
 #official-twitter-button a:before{
-	background: url('../image/twitter-brands.svg') no-repeat;
-	background-size: cover;
-	content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #a0ee0a;
+	left: 50%;
+	top: 50%;
+	transition: transform .4s;
+	transform: scale(0);
+	z-index: -5;
 }
+
+
+#official-twitter-button:hover a:before{
+	transform: scale(46);
+}
+
+
+
+
+
+
 
 
