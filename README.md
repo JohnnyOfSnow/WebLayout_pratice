@@ -14,6 +14,7 @@
 * **[ch10: 麵包屑](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch10)**
 * **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)**
 * **[ch12: 破格式設計](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch12)**	
+* **[ch13: 表格](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch13)**	
 
 ***
 ## 個人專案、應用

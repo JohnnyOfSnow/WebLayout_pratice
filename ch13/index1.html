@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,500,900&display=swap");
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+
+		html,body{
+			height: 100%;
+		}
+
+		body{
+			display: flex;
+			align-items: center;
+			background: linear-gradient(90deg,#3d5894,#08c7a5);
+		}
+
+		.table{
+			width: 800px;
+			margin: auto;
+		}
+
+		.table table{
+			width: 100%;
+			border: 3px double #666;
+			background-color: #fff;
+			border-radius: 10px;
+		}
+
+		.table a{
+			color: #aaa;
+		}
+
+		.table a:hover{
+			color: #f00;
+		}
+
+		.table thead{
+			color: #fff;
+			background-color: #333;
+		}
+
+		.table thead th:first-child{
+			border-radius: 7px 0 0 0 ;
+		}
+
+		.table thead th:last-child{
+			border-radius: 0 7px 0 0 ;
+		}
+
+		.table tbody tr:nth-child(even){
+			background-color: #ffa;
+		} 
+
+		.table tbody tr:hover{
+			background-color: #fee;
+		}
+
+		.table th{
+			border: 1px solid #666;
+			padding: 6px 10px;
+		}
+
+		.table td{
+			border: 1px solid #666;
+			padding: 6px 10px;
+		}
+
+		.table table tfoot td:first-child{
+			border-radius: 0 0 0 7px;
+		}
+
+		.table table tfoot td:last-child{
+			border-radius: 0 0 7px 0;
+		}
+
+		.table caption{
+			caption-side: bottom;
+			text-align: right;
+			padding: 10px 0;
+			color: #ccc;
+		}
+
+		.table caption a{
+			color: #111;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="table">
+		<table>
+			<caption>
+				Sakura 範例一覽表:資料來源-<a href="javascript:void(0);">Sakura Youtube頻道</a>
+			</caption>
+			<thead>
+				<tr>
+					<th scope="col">1</th>
+					<th scope="col">2</th>
+					<th scope="col">3</th>
+					<th scope="col">4</th>
+					<th scope="col">5</th>
+					<th scope="col">6</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="">敬請期待</a></td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+				</tr>
+				<tr>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+				</tr>
+				<tr>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td>敬請期待</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>敬請期待</td>
+					<td></td>
+					<td></td>
+					<td>敬請期待</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>敬請期待</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>敬請期待</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>備註</td>
+					<td colspan="5">敬請期待</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</body>
+</html>
