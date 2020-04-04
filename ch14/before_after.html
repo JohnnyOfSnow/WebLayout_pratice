@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>before and after</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-size: 20px;
+		}
+		body{
+			
+			height: 100%;
+		}
+		.txt{
+			margin: 200px;
+			color: #000;
+		}
+		.txt::before{
+			content: '我是before';
+			color: #f00;
+
+		}
+		.txt::after{
+			content: '我是after';
+			color: #00f;
+		}
+
+		a::after{
+			content: attr(data-note);
+			color: #aaa;
+		}
+		.sakura-list{
+		  counter-reset: my-area 7;
+		}
+		.sakura-list-item::before{
+		  content: counter(my-area) '. ';
+		  counter-increment: my-area 1; 
+		}
+	</style>
+</head>
+<body>
+	<!--
+	<div class="txt">
+		我是文字
+	</div>
+	-->
+	<!--
+	<a href="https://csscoke.com" target="_blank" data-note="此連結另開視窗">
+		我是連結
+	</a>
+	-->
+	<div class="sakura-list">
+		<div class="sakura-list-item">list</div>
+		<div class="sakura-list-item">list</div>
+		<div class="sakura-list-item">list</div>
+		<div class="sakura-list-item">list</div>
+	</div>
+
+</body>
+</html>

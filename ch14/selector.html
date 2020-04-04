@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		.box{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border: 1px solid #000;
+			background-color: #fff;
+			margin: 30px;
+		}
+
+		.txt-box{
+			width: 100px;
+			height: 100px;
+			border: 1px solid #000;
+			margin-left: 100px; 
+		}
+
+		.first:hover ~ .txt-box{
+			background-color: #fa0;
+		}
+
+		.second:hover ~ .txt-box{
+			background-color: #af0;
+		}
+
+		.third:hover ~ .txt-box{
+			background-color: #0fa;
+		}
+
+
+	</style>
+</head>
+<body>
+	<a href="#" class="box first">1</a>
+	<a href="#" class="box second">2</a>
+	<a href="#" class="box third">3</a>
+	<div class="txt-box"></div>
+</body>
+</html>
