@@ -9,6 +9,7 @@
 * **練習內容**
   * 練習刻板
   * Swiper教學
+  * Scale 和 transition
 
 ***
 ### 1. Swiper教學

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,500,900&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Noto Sans TC', sans-serif;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.m-header{
+	width: 100%;
+	display: flex;
+	
+}
+
+.m-header_wrap{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.m-header_wrap .m-header_head{
+
+}
+
+
+.m-header_head{
+	margin: 5px 20px;
+}
+
+.m-header_head img{
+	width: 100px;
+	height: 29px;
+}
+
+
+.m-header_body{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.m-header_body .m-header_nav{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;	
+}
+
+.m-header_nav .m-header_nav_item{
+	margin: 0px 20px;
+}
+
+.m-header_nav_item a{
+	text-decoration: none;
+	color: #999;
+	transition: color .5s;
+}
+
+.m-header_nav_item a:hover{
+	color: #000;
+}
+
+.m-header_sns{
+	display: flex;
+}
+
+.m-header_sns .m-header_sns_item{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ccc;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+}
+
+.m-header_sns li:first-child{
+	background-color: #000;
+}
+
+.m-header_sns li:nth-child(2){
+	background-color: #fff;
+}
+
+.m-header_sns li:last-child{
+	background-color: #ff0;
+}
+
+.m-header_sns_item a{
+	text-decoration: none;
+	color: #000;
+}
+
+#m-header_sns_item_contact{
+	color: #fff;
+}
+
+
+
+
+/* CSS3's media queries(to adjust the screen's width accroding to device.)
+	1. media type: 
+	2. media feature:
+*/
+
+/* Small screens - MOBILE */
+@media screen and (max-width: 768px){
+
+	/* list not active */
+
+
+
+	/* list is active */
+	.m-header_head{
+		display: none;
+	}
+
+	.m-header_body{
+		z-index: 99;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100vh;
+	    padding-top: 70px;
+	    padding-bottom: 0vw;
+	    background-color: rgba(0, 0, 0, 0.85);
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: flex-start;
+	}
+
+	.m-header_nav{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.m-header_nav .m-header_nav_item{
+		margin: 20px 0px;
+	}
+
+	.m-header_body .m-header_sns{
+		
+	}
+
+}
