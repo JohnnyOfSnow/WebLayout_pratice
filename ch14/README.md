@@ -30,7 +30,7 @@
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch14/image/before_after.jpg)
 
-** ::before / ::after 一定要有conten屬性，否則不存在**
+**::before / ::after 一定要有conten屬性，否則不存在**
 
 ***
 content可以填入(比較常用的)
@@ -61,11 +61,11 @@ content attr範例
 ### 3. 加號選取器之連接號選取器
 ***
 
-** + 加號選取器(Adjacent sibling combinator)**
+**+ 加號選取器(Adjacent sibling combinator)**
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch14/image/ASC.jpg)
 
-** ~ 連接號選取器(General sibling combinator)**
+**~ 連接號選取器(General sibling combinator)**
 
 ![image](https://github.com/JohnnyOfSnow/WebLayout_pratice/blob/master/ch14/image/GSC.jpg)
 
