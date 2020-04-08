@@ -7,7 +7,8 @@
 |---|---|---|---|
 **[ch05: 超通用橫式版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch05)**  | **[ch06: 複習ch1-ch5](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch06)**  | **[ch07: 網頁頁尾版塊](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch07)**  | **[ch08: 導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch08)**  |
  **[ch09: 變化導覽列](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch09)**  | **[ch10: 麵包屑](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch10)**  | **[ch11: 方塊酥版面](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch11)** | **[ch12: 破格式設計](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch12)**  | 
-**[ch13: 表格](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch13)**  | **[ch14: 側邊選單](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch14)**  |   |  | 
+**[ch13: 表格](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch13)**  | **[ch14: 側邊選單](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch14)**  | **[ch15: 側邊選單(動態)](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch15)**  | 
+**[ch16: 多層次收合選單](https://github.com/JohnnyOfSnow/WebLayout_pratice/tree/master/ch16)** | 
 
 
 ***
