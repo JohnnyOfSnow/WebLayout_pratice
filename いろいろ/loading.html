@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		html, body{
+			height: 100%;
+		}
+
+		body{
+			display: flex;
+			background-color: #546377;
+		}
+
+		.loading-box{
+			width: 300px;
+			height: 100px;
+			
+			border-left: 2px solid #fa0;
+			margin: auto;
+			color: #fff;
+		}
+
+		.loading-box .txt{
+			position: relative;
+			display: flex;
+		}
+
+
+
+		.cp-preloader{
+		  width: 200px;
+		  position: absolute;
+		  right: -4px;
+		  
+		  -webkit-transform: translate3d(-50%, -50%, 0);
+		          transform: translate3d(-50%, -50%, 0);
+		}
+
+		.cp-preloader__letter{
+		  display: inline-block;
+		  position: relative;
+		  overflow: hidden;
+		  color: rgba(255, 255, 255, .7);
+		  font-size: 20px;
+		  font-weight: bold;
+
+		  -webkit-animation-duration: 2s;
+
+		          animation-duration: 2s;
+		  -webkit-animation-iteration-count: infinite;
+		          animation-iteration-count: infinite;
+		  -webkit-animation-fill-mode: backwards;
+		          animation-fill-mode: backwards;  
+		}
+
+		.cp-preloader__letter:nth-child(2){
+		  -webkit-animation-delay: 0.3s;
+		          animation-delay: 0.3s;
+		}
+
+		.cp-preloader__letter:nth-child(3){
+		  -webkit-animation-delay: 0.45s;
+		          animation-delay: 0.45s;
+		}
+
+		
+		/* type 1 */
+
+		.cp-preloader_type1 .cp-preloader__letter{
+		  -webkit-animation-name: cp-preloader1;
+		          animation-name: cp-preloader1;
+		}
+
+		@-webkit-keyframes cp-preloader1{
+
+		  0%, 100%{
+		    -webkit-transform: rotateY(-90deg);
+		            transform: rotateY(-90deg);
+		    opacity: 0;
+		  }
+
+		  20%, 50%{
+		    -webkit-transform: rotateY(0);
+		            transform: rotateY(0);
+		   	opacity: 1;
+		  }
+
+		  65%{
+		    -webkit-transform: rotateY(0);
+		            transform: rotateY(0);
+		     opacity: .3;
+		  }
+
+		  80%{
+		    opacity: 0;
+		  }
+		}
+
+		@keyframes cp-preloader1{
+
+		  0%, 100%{
+		    -webkit-transform: rotateY(-90deg);
+		            transform: rotateY(-90deg);
+		     opacity: 0;
+		  }
+
+		  20%, 50%{
+		    -webkit-transform: rotateY(0);
+		            transform: rotateY(0);
+		    opacity: 1;
+		  }
+
+		  65%{
+		    -webkit-transform: rotateY(0);
+		            transform: rotateY(0);
+		     opacity: .3;
+		  }
+
+		  80%{
+		    opacity: 0;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="loading-box">
+		<div>Loading</div>
+		<div class="txt">少々お待ちください</div>
+	  		<div class="cp-preloader cp-preloader_type1">
+	    		<span class="cp-preloader__letter" data-preloader=".">.</span>
+	   		    <span class="cp-preloader__letter" data-preloader=".">.</span>
+	    		<span class="cp-preloader__letter" data-preloader=".">.</span>
+	  		
+  		</div>
+	</div>
+</body>
+</html>

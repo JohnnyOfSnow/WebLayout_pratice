@@ -1,0 +1,105 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,500,900&display=swap");
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+:root {
+    --base-hue: 255;
+    --base-hue-deg: 255deg;
+}
+
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	position: relative;
+}
+
+.nav-menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: transparent;
+	position: fixed;
+	z-index: 5;
+	transition: .3s;
+}
+
+.active{
+	height: 40px;
+	background-color: rgb(86,57,172);
+}
+
+
+
+.nav-menu-function ul,
+.nav-menu-player ul{
+	display: flex;
+}
+
+.nav-menu-function ul li,
+.nav-menu-player ul li{
+	margin: 10px 10px;
+	color: #fff;
+
+}
+
+.nav-menu-function ul li a,
+.nav-menu-player ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.bg-container{
+	
+	width: 100%;
+	height: 950px;
+}
+
+.bg-container-up{
+	background: linear-gradient(#e66465, #9198e5);
+	height: 20%;
+}
+
+.bg-container-mid{
+	background: hsl(var(--base-hue),10%,10%);
+	height: 73%;
+}
+
+.bg-container-bottom{
+	background: hsl(var(--base-hue),10%,15%);
+	height: 7%;
+	display: flex;
+	justify-content: center;
+}
+
+.bg-container-bottom .txt{
+	color: #fff;
+	font-size: 14px;
+}
+
+.bg-container-bottom .txt ul{
+	display: flex;
+}
+
+.bg-container-bottom .txt ul li{
+	margin: 7px 10px;
+}
+
+.main-container{
+	width: 70%;
+	position: absolute;
+	height: 768px;
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	background: hsl(var(--base-hue),10%,15%);
+	z-index: 1;
+}

@@ -1,0 +1,288 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,500,900&display=swap");
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+:root {
+    --base-hue: 255;
+    --base-hue-deg: 255deg;
+}
+
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	position: relative;
+	height: 100%;
+}
+
+.nav-menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: transparent;
+	position: fixed;
+	z-index: 5;
+	transition: .4s;
+}
+
+.nav-menu-active{
+	background-color: rgb(86,57,172);
+}
+
+.nav-icon{
+	width: 70px;
+	height: 70px;
+	transition: .3s;
+}
+
+.nav-icon-active{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+.nav-menu-function ul,
+.nav-menu-player ul{
+	display: flex;
+}
+
+.nav-menu-function ul li,
+.nav-menu-player ul li{
+	margin: 10px 10px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu-function ul li a,
+.nav-menu-player ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+.bg-container{
+	width: 100%;
+	height: 1500px;
+}
+
+.bg-container-up{
+	background: linear-gradient(#e66465, #9198e5);
+	height: 10%;
+}
+
+.bg-container-mid{
+	background: hsl(var(--base-hue),10%,10%);
+	height: 83%;
+}
+
+.bg-container-bottom{
+	background: hsl(var(--base-hue),10%,15%);
+	height: 7%;
+	display: flex;
+	justify-content: center;
+}
+
+.bg-container-bottom .txt{
+	color: #fff;
+	font-size: 14px;
+}
+
+.bg-container-bottom .txt ul{
+	display: flex;
+}
+
+.bg-container-bottom .txt ul li{
+	margin: 7px 10px;
+}
+
+.main-container{
+	width: 70%;
+	position: absolute;
+	/*height: 1278px;*/
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	background: hsl(var(--base-hue),10%,15%);
+	z-index: 0;
+	padding-bottom: 140px;
+}
+
+.page-header{
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.page-header .txt{
+	margin-left: 40px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.page-select{
+	background: hsl(var(--base-hue),20%,20%);
+	height: 50px;
+}
+
+.page-select ul{
+	display: flex;
+	line-height: 50px;
+	margin-left: 20px;
+}
+
+.page-select ul li + li{
+	margin-left: 10px;
+}
+
+.page-select ul li a{
+	color: hsl(var(--base-hue),40%,80%);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.page-content{
+	width: 100%;
+	background: hsl(var(--base-hue),20%,15%);
+	display: flex;
+}
+
+.page-content .page-content-left{
+	width: 55%;
+	margin-left: 40px;
+}
+
+.page-content-left .title{
+	margin: 10px 0;
+	color: #fff;
+	font-size: 20px;
+}
+
+.page-content-left .item{
+}
+
+.page-content-left .item + .item{
+	margin-top: 10px;
+}
+
+.page-content-left .item .image {
+	width: 100%;
+	height: 130px;
+}
+.page-content-left .item .image img{
+	max-width: 535px;
+
+}
+
+.page-content-left .item .txt{
+	display: flex;
+	flex-direction: row;
+	background: hsl(var(--base-hue),10%,20%);
+}
+
+.item .txt .txt-date{
+	width: 54px;
+	color: #fff;
+	text-align: right;
+	margin: 5px 0;
+	margin-right: 5px;
+	padding-right: 10px;
+	border-right: 1px solid #aaa;
+}
+
+.item .txt .txt-date-day{
+	font-size: 14px;
+}
+
+.item .txt .txt-date-month,
+.item .txt .txt-date-year{
+	font-size: 12px;
+}
+
+.item .txt .txt-content{
+	width: 450px;
+	color: #fff;
+	margin-left: 5px;
+}
+
+.item .txt .txt-content h2{
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.item .txt .txt-content p{
+	font-size: 13px;
+	margin-bottom: 5px;
+	font-weight: 100;
+}
+
+.item-list{
+	background: hsl(var(--base-hue),10%,20%);
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.item-list .txt{
+	display: flex;
+	align-items: center;
+}
+
+.item-list .txt .txt-date{
+	width: 44px;
+	color: #fff;
+	text-align: right;
+	margin: 5px 10px;
+	padding-right: 10px;
+	border-right: 1px solid #aaa;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+
+}
+
+.item-list .txt .txt-content{
+	width: 450px;
+	color: #fff;
+	margin-left: 2px;
+	font-size: 12px;
+}
+
+.item-list .txt .txt-content h2{
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.item-more{
+	width:  100%;
+	height: 80px;
+	margin-top: 10px;
+	background: hsl(var(--base-hue),10%,20%);
+	display: flex;
+	justify-content: center;
+
+}
+
+.item-more a{
+	line-height: 80px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 200;
+}
+
+.page-content .page-content-right{
+	width: 35%;
+	height: 800px;
+	background: hsl(var(--base-hue),10%,20%);
+	margin-left: 20px;
+	margin-right: 20px;
+}
