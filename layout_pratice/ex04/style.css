@@ -298,3 +298,136 @@ body{
 	margin: 7px 10px;
 }
 
+/* Article page css */
+
+.article-content{
+	padding: 10px 30px;
+	color: #fff;
+}
+
+.article-content-bg-img img{
+	width: 100%;
+}
+
+.article-content-normal-word{
+	margin-top: 20px;
+
+}
+
+.article-content-normal-word p{
+	line-height: 1.8;
+	font-weight: 200;
+}
+
+.article-content-title{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.article-content-character{
+	width: 100%;
+	font-weight: 200;
+}
+
+.article-content-character table{
+	width: 100%;
+	border: 1px solid #aaa;
+}
+
+
+.article-content-character table tr td{
+	border: 1px solid #aaa;
+	text-align: center;
+}
+
+.article-content-character table tr td:first-child{
+	width: 35%;
+}
+
+.article-content-character table tr td:last-child{
+	width: 65%;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.article-content-mid-img{
+	
+}
+
+.article-content-mid-img img{
+	display: inline;
+	width: 49%;
+	border: 1px solid #333;
+}
+
+
+.article-content-small-title{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.emphasize{
+	color: #ff0;
+	font-weight: 400;
+}
+
+/* article chapter menu */
+
+.chapter-menu{
+	position: fixed;
+	left: -120px;
+	top: 30vh;
+	cursor: pointer;
+
+}
+.chapter-menu-content{
+	float: left;
+	background: hsl(var(--base-hue),10%,20%);
+	padding: 10px 0px;
+}
+
+.chapter-menu-content ul li{
+	list-style-type: none;
+	width: 120px;
+	text-align: left;
+}
+
+.chapter-menu-content ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.chapter-menu-button{
+	color: #fff;
+	float: left;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.chapter-menu-button:before{
+	content: '章節選單';
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	bottom: -35px;
+	left: 2px;
+	right: 2px;
+	text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+	.article-content-mid-img img{
+		display: block;
+		width: 100%;
+		border: 1px solid #333;
+	}
+
+}
