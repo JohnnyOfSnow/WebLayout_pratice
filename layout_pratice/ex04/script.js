@@ -6,16 +6,17 @@ $(function(){
 		$(".chapter-menu-button").click(function(){
 			if(moving==0){
 				$(".chapter-menu").animate({"left": "0px"})
-				$('.chapter-menu-button:before').addClass('chapter-menu-active');
 				moving=1
 			}else if(moving==1){
-				$(".chapter-menu").animate({"left": "-120px"})
+				$(".chapter-menu").animate({"left": "-125px"})
 				moving=0
 			}else{
 
 			}
 		})
 	});
+
+	var bodyTop = 0;
 
 	var winWidth = $(window).width(),
 		winHeight = $(window).height(),
@@ -29,7 +30,6 @@ $(function(){
 
 
 	function getScrollTop(){
-		var bodyTop = 0;
 		if (typeof window.pageYOffset != "undefined") {
 		    bodyTop = window.pageYOffset;
 		} else if (typeof document.compatMode != "undefined"
@@ -47,5 +47,8 @@ $(function(){
 		  	$('.nav-menu').removeClass('nav-menu-active');
 		}
 	}
+
+	
+	
 
 });

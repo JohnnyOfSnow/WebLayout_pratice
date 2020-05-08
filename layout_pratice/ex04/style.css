@@ -1,10 +1,18 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,500,900&display=swap");
+
 *{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
+
+/* 
+	1.
+	2. Article page css 
+	3. Article chapter menu
+	4.
+*/
 
 
 :root {
@@ -301,80 +309,45 @@ body{
 /* Article page css */
 
 .article-content{
-	padding: 10px 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	color: #fff;
+	font-weight: 300px;
 }
 
-.article-content-bg-img img{
+.article-content-bg-img{
 	width: 100%;
 }
 
-.article-content-normal-word{
-	margin-top: 20px;
-
-}
-
-.article-content-normal-word p{
-	line-height: 1.8;
-	font-weight: 200;
-}
-
-.article-content-title{
-	margin-top: 40px;
-	margin-bottom: 20px;
-	font-size: 24px;
-}
-
-.article-content-character{
-	width: 100%;
-	font-weight: 200;
-}
-
-.article-content-character table{
-	width: 100%;
-	border: 1px solid #aaa;
-}
-
-
-.article-content-character table tr td{
-	border: 1px solid #aaa;
-	text-align: center;
-}
-
-.article-content-character table tr td:first-child{
-	width: 35%;
-}
-
-.article-content-character table tr td:last-child{
-	width: 65%;
-	padding: 10px 10px;
-	text-align: left;
-}
-
-.article-content-mid-img{
-	
-}
-
-.article-content-mid-img img{
+.article-content-mid-img {
 	display: inline;
 	width: 49%;
 	border: 1px solid #333;
 }
 
 
-.article-content-small-title{
-	margin-top: 40px;
-	margin-bottom: 20px;
-	font-size: 20px;
+
+.article-content h2{
+	width: 90%;
+	
 }
 
-.emphasize{
-	color: #ff0;
-	font-weight: 400;
+.article-content p{
+	width: 90%;
+	
 }
 
-/* article chapter menu */
+.article-content hr{
+	width: 90%;
+	
+}
 
+
+
+
+/* Article chapter menu */
 .chapter-menu{
 	position: fixed;
 	left: -120px;
@@ -386,12 +359,17 @@ body{
 	float: left;
 	background: hsl(var(--base-hue),10%,20%);
 	padding: 10px 0px;
+	padding-left: 5px;
 }
 
 .chapter-menu-content ul li{
 	list-style-type: none;
 	width: 120px;
 	text-align: left;
+}
+
+.chapter-menu-content ul li + li{
+	margin-top: 10px;
 }
 
 .chapter-menu-content ul li a{
@@ -420,9 +398,7 @@ body{
 }
 
 
-
-
-
+/* smartphone layout for screen width < 800px */
 @media only screen and (max-width: 800px){
 	.article-content-mid-img img{
 		display: block;
